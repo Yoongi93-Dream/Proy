@@ -1,0 +1,86 @@
+
+/* ESTILOS PARA LA DISCOGRAFÍA */
+.cd-container {
+  background: linear-gradient(to right, rgba(232, 193, 245, 0.5), rgba(243, 160, 215, 0.5), rgba(247, 225, 193, 0.5));
+  padding: 20px;
+  max-width: 1200px;
+  margin: 15px auto;
+  border-radius: 15px;
+}
+
+.titulo {
+  text-align: center;
+  color: #5a4fc3;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.albumes {
+  margin-top: 30px;
+}
+
+.album {
+  background: linear-gradient(to right, rgba(217, 249, 216, 0.5), rgba(168, 248, 227, 0.5), rgba(232, 198, 247, 0.5));
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.album p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 16px;
+  color: #555;
+}
+
+/* ESTILOS PARA COLABORACIONES */
+.colaboraciones {
+  background: linear-gradient(to right, rgba(183, 216, 246, 0.5), rgba(244, 201, 217, 0.5), rgba(243, 226, 161, 0.5));
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.colaboracion {
+  background: linear-gradient(to right, rgba(198, 227, 249, 0.5), rgba(243, 208, 224, 0.5), rgba(254, 240, 182, 0.5));
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.colaboracion h2 {
+  font-size: 28px;
+  color: #ee7a7a;
+  margin-bottom: 10px;
+}
+
+.colaboracion p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.subtitulo {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}

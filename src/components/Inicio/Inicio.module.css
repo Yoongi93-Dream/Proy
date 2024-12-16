@@ -1,0 +1,95 @@
+.inicio-container {
+    background-image: url('public/imagenes/Fon.jpg');
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.titulo-centro {
+    text-align: center;
+    padding: 10px;
+}
+
+.texto-grande {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(98, 114, 207);
+}
+
+.inicio-header {
+    background: linear-gradient(to bottom, 
+    rgba(108, 122, 202, 0.719), 
+    rgba(144, 204, 224, 0.6) );
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.inicio-main section {
+    background: linear-gradient(to bottom, 
+    rgba(187, 187, 228, 0.918), 
+    rgba(226, 154, 190, 0.781));
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+}
+
+.carousel img {
+    width: 100%; 
+    height: 700px; 
+    object-fit: cover; 
+}
+
+.inicio-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 50px;
+}
+
+.inicio-card:nth-child(1) {
+    background: linear-gradient(to bottom right, rgba(241, 205, 191, 0.8), rgba(252, 174, 186, 0.8));
+}
+
+.inicio-card:nth-child(2) {
+    background: linear-gradient(to bottom right, rgba(255, 245, 204, 0.8), rgba(245, 206, 167, 0.8));
+}
+
+.inicio-card:nth-child(3) {
+    background: linear-gradient(to bottom right, rgba(210, 235, 210, 0.8), rgba(184, 235, 184, 0.8));
+}
+
+.inicio-card:nth-child(4) {
+    background: linear-gradient(to bottom right, rgba(211, 229, 255, 0.8), rgba(146, 181, 238, 0.8));
+}
+
+.inicio-card:nth-child(5) {
+    background: linear-gradient(to bottom right, rgba(127, 247, 159, 0.858), rgba(245, 199, 134, 0.8));
+}
+
+.inicio-card:nth-child(6) {
+    background: linear-gradient(to bottom right, rgba(164, 182, 243, 0.8), rgba(255, 207, 162, 0.8));
+}
+
+.inicio-card:nth-child(7) {
+    background: linear-gradient(to bottom right, rgba(204, 243, 241, 0.8), rgba(144, 226, 211, 0.8));
+}
+
+.inicio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 9px 9px 9px rgba(252, 143, 143, 0.816);
+}
+
+.inicio-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.inicio-card {
+    padding: 15px;
+}

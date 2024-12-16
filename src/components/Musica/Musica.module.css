@@ -1,0 +1,149 @@
+.musicaContainer {
+ background-image: url('public/imagenes/fon3.jpg');
+ padding: 20px;
+ margin-top: 15px;
+ margin-bottom: 10px; 
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d0a8f1;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 1.2rem;
+  color: #b4f8e5b2;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.tarjeta {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo predeterminado */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta:nth-child(1) {
+  background-color: rgba(255, 223, 211, 0.8); /* Rosa claro */
+}
+
+.tarjeta:nth-child(2) {
+  background-color: rgba(255, 245, 204, 0.8); /* Amarillo pastel */
+}
+
+.tarjeta:nth-child(3) {
+  background-color: rgba(210, 235, 210, 0.8); /* Verde pastel */
+}
+
+.tarjeta:nth-child(4) {
+  background-color: rgba(211, 229, 255, 0.8); /* Azul pastel */
+}
+
+.tarjeta:nth-child(5) {
+  background-color: rgba(242, 213, 255, 0.8); /* Lila pastel */
+}
+
+.tarjeta:nth-child(6) {
+  background-color: rgba(255, 235, 204, 0.8); /* Durazno */
+}
+
+.tarjeta:nth-child(7) {
+  background-color: rgba(204, 243, 241, 0.8); /* Turquesa claro */
+}
+
+.tarjeta:nth-child(8) {
+  background-color: rgba(245, 224, 220, 0.8); /* Rosa pálido */
+}
+
+.tarjeta:nth-child(9) {
+  background-color: rgba(255, 251, 204, 0.8); /* Amarillo pálido */
+}
+
+.tarjeta:nth-child(10) {
+  background-color: rgba(220, 220, 255, 0.8); /* Lavanda */
+}
+
+.tarjeta:nth-child(11) {
+  background-color: rgba(255, 218, 234, 0.8); /* Rosado perlado */
+}
+
+.tarjeta:nth-child(12) {
+  background-color: rgba(214, 243, 212, 0.8); /* Verde menta */
+}
+
+.tarjeta:nth-child(13) {
+  background-color: rgba(240, 240, 255, 0.8); /* Azul niebla */
+}
+
+.tarjeta:nth-child(14) {
+  background-color: rgba(255, 220, 220, 0.8); /* Coral pastel */
+}
+
+.tarjeta:nth-child(15) {
+  background-color: rgba(248, 229, 229, 0.8); /* Beige rosado */
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.tituloTarjeta {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.subtituloTarjeta {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.tarjeta .card-text {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.tarjeta a {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.tarjeta a:hover {
+  text-decoration: underline;
+}

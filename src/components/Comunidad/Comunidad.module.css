@@ -1,0 +1,98 @@
+.comunidad-container {
+  background-image: url('public/imagenes/fon5.jpg');
+  padding: 20px;
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  color: #1c232b;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 1.2rem;
+  color: #2b1a8e;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.seccion {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #e0bbbb;
+  border-radius: 10px;
+}
+
+.subtitulo {
+  font-size: 1.8rem;
+  color: #234563;
+  margin-bottom: 10px;
+}
+
+.calendario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dia {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #031826;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
+
+.evento-titulo {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.comentarios {
+  margin-top: 20px;
+}
+
+.comentario {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.nuevo-comentario {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #001829;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-enviar {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: #cca7f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #2980b9;
+}
